@@ -1,0 +1,8 @@
+Q: Which of the following variables are exportable from another function externall?
+
+a. aName, BigBro
+b. BigBro
+c. aName, BigBro, 爱
+d. BigBro, 爱
+
+A: d

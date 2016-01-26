@@ -1,0 +1,2 @@
+Q: What's the output of following code?
+A: 0 1 2 0 0 0

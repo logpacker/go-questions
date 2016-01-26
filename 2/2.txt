@@ -1,0 +1,2 @@
+Q: What's the output of following code?
+A: invalid operation: a + b (mismatched types int8 and int16)

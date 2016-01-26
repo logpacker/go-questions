@@ -1,0 +1,8 @@
+Q: Which one of the following is correct?
+
+a. const Pi = math.Pi
+b. const Pi = 3.14
+c. both a and b are correct
+d. None of the above
+
+A: b
