@@ -1,0 +1,6 @@
+Q: Does Go support type inheritance?
+
+a. Yes
+b. No
+
+A: b

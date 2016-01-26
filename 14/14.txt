@@ -1,0 +1,7 @@
+Q: Is it possible to have multiple tag strings of struct field?
+
+a. Yes. They should be comma-separated: `key:"name",maxlength:"128"`
+b. Yes. They should be space-separated: `key:"name" maxlength:"128"`
+c. No
+
+A: b

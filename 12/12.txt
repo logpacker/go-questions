@@ -1,0 +1,8 @@
+Q: Can you declare multiple types of variables in single declaration in Go?
+
+var a, b, c = 3, 4, "foo"
+
+a. Yes
+b. No
+
+A: a
