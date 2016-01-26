@@ -1,0 +1,7 @@
+Q: How to build the following code to the binary file with custom name "eight"?
+
+a. go build 8.go eight
+b. go build -o eight 8.go
+c. go build 8.go -o eight
+
+A: b

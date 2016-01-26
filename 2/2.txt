@@ -1,2 +1,8 @@
 Q: What's the output of following code?
-A: invalid operation: a + b (mismatched types int8 and int16)
+
+a. 7
+b. 4
+c. 3
+d. invalid operation: a + b (mismatched types int8 and int16)
+
+A: d

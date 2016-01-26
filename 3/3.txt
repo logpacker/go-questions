@@ -1,2 +1,6 @@
 Q: Short declaration ":=" can be used for defining global variables, isn't it?
-A: No
+
+a. Yes
+b. No
+
+A: b

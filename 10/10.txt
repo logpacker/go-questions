@@ -1,0 +1,8 @@
+Q: What's correct verb should we use with Printf to print boolean?
+
+a. %v
+b. %t
+c. %b
+d. %s
+
+A: b
