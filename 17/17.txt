@@ -1,0 +1,8 @@
+Q: Choose the correct statement about the output of the following code.
+
+a. Output will be ordered by values
+b. Output will be ordered by keys
+c. Output will be ordered randomly
+d. Output will be ordered by position in the code
+
+A: c

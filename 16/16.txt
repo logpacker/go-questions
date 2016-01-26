@@ -1,0 +1,8 @@
+Q: What characters are used by *go fmt* as indent?
+
+a. 4 spaces
+b. 2 spaces
+c. tab character
+d. it's configurable
+
+A: a

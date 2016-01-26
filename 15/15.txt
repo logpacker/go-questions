@@ -1,0 +1,8 @@
+Q: What is the output of the following code?
+
+a. 0123
+b. 3210
+c. 0000
+d. 3333
+
+A: b
