@@ -1,4 +1,4 @@
-Q: What's the output of following code?
+Q: What's the output of the following code?
 
 a. 0 1 2 3 4 5
 b. 0 1 2 0 1 2

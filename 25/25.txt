@@ -1,4 +1,4 @@
-Q: Is it possible to compare slices with "==" operator?
+Q: Is it possible to find that slices are equal with "==" operator?
 
 a. Yes
 b. No

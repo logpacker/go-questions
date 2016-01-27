@@ -1,4 +1,4 @@
-Q: Which of the following variables are exportable from another function externall?
+Q: Which of the following variables are exportable from another external package?
 
 a. aName, BigBro
 b. BigBro

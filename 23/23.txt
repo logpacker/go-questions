@@ -1,4 +1,4 @@
-Q: When init() function will be called in ?
+Q: When init() function will be called?
 
 a. Before main() function in main package
 b. For any non-main package after import

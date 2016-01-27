@@ -1,4 +1,4 @@
-Q: What's correct verb should we use with Printf to print boolean?
+Q: What's correct verb should we use with fmt.Printf to print boolean?
 
 a. %v
 b. %t
