@@ -1,0 +1,8 @@
+Q: What size of the following struct?
+
+a. 12
+b. 8
+c: 24
+d: 32
+
+A: c

@@ -1,0 +1,8 @@
+Q: Where should we use defer in the following code?
+
+a. 1
+b. 2
+c. 3
+d. None of them
+
+Q: 2

@@ -1,0 +1,6 @@
+Q: In Go, does a break statement break from a select?
+
+a. Yes
+b. No
+
+A: a

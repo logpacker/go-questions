@@ -1,0 +1,8 @@
+Q: When init() function will be called in ?
+
+a. Before main() function in main package
+b. For any non-main package after import
+c. Only when you call it
+d. a and b
+
+A: d

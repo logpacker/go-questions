@@ -1,0 +1,8 @@
+Q: What are the default values (0) for types: string, *string ?
+
+a. "", nil
+b. "", ""
+c. nil, nil
+d. nil, ""
+
+A: a

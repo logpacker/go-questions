@@ -1,0 +1,7 @@
+Q: What's the default buffer size of channel in Go?
+
+a. 0
+b. 1
+c. No default size
+
+A: a

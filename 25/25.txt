@@ -1,0 +1,6 @@
+Q: Is it possible to compare slices with "==" operator?
+
+a. Yes
+b. No
+
+A: b

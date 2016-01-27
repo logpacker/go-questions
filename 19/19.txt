@@ -1,0 +1,7 @@
+Q: Which of the following concatenation methods is slowest?
+
+a. 1
+b. 2
+c. 3
+
+A: a

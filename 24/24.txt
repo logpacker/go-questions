@@ -1,0 +1,6 @@
+Q: Does Go have a ternary operator?
+
+a. Yes
+b. No
+
+A: b

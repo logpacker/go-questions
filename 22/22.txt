@@ -1,0 +1,6 @@
+Q: Does Go support optional parameters in functions?
+
+a. Yes
+b. No
+
+A: b
