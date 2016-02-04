@@ -1,4 +1,4 @@
-Q: Is it possible to define constant with array of type float32?
+Q: Is it possible to define constant of an array type float32?
 
 a. Yes
 b. No

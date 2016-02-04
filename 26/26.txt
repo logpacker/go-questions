@@ -1,4 +1,4 @@
-Q: What size of the following struct?
+Q: What is the size of the following struct?
 
 a. 12
 b. 8

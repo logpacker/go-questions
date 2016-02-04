@@ -1,7 +1,7 @@
-Q: When init() function will be called?
+Q: When will init() function be called?
 
 a. Before main() function in main package
-b. For any non-main package after import
+b. After importing a package with defined init() function
 c. Only when you call it
 d. a and b
 

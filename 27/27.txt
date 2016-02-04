@@ -1,4 +1,4 @@
-Q: What's the default buffer size of channel in Go?
+Q: What's the default buffer size of the channel in Go?
 
 a. 0
 b. 1

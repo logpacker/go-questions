@@ -1,4 +1,4 @@
-Q: What's the output sequence of the following code?
+Q: What's the sequence for the output of the following code?
 
 a. 3 2 1
 b. 1 2 3

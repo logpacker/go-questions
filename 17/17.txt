@@ -1,4 +1,4 @@
-Q: Choose the correct statement about the output of the following code.
+Q: Choose the correct statement regarding the output of the following code.
 
 a. Output will be ordered by values
 b. Output will be ordered by keys

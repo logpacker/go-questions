@@ -1,4 +1,4 @@
-Q: Can we set DEBUG=true with go build?
+Q: Can we set DEBUG=true with *go build*?
 
 a. Yes. go build -ldflags '-X main.DEBUG=true' 9/9.go
 b. No

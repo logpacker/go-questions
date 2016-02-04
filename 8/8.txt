@@ -1,4 +1,4 @@
-Q: How to build the following code to the binary file with custom name "eight"?
+Q: How to compile the following code to the binary file with name "eight"?
 
 a. go build 8.go eight
 b. go build -o eight 8.go

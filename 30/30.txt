@@ -1,4 +1,4 @@
-Q: In Go, does a break statement break from a select?
+Q: In Go, does a *break* statement exit from a *select* block?
 
 a. Yes
 b. No

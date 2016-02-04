@@ -1,8 +1,8 @@
-Q: How to change the value of GOMAXPROCS in Go?
+Q: How can we change the value of GOMAXPROCS in Go?
 
 a. Via environment variable GOMAXPROCS
-b. On runtime in code
+b. In the code
 c. a and b
-d. Not possible, equal to the number of CPUs available
+d. Impossible as it's equal to the number of available CPUs
 
 A: c

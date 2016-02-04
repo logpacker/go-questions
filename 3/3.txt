@@ -1,4 +1,4 @@
-Q: Short declaration ":=" can be used for defining global variables, isn't it?
+Q: Can short declaration ":=" be used for defining global variables?
 
 a. Yes
 b. No

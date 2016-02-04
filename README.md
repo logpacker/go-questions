@@ -1,13 +1,11 @@
-Each folder contains one question related to Golang, some of them have example code.
-
-Rules:
+Preliminary information:
 
 * Each question has a separate folder and .txt file
-* Some questions have a code example in .go file that should be pasted to the question
+* Some questions have a code example in .go file
 * Each question has only one correct answer
-* All questions have options from *a* to *d*
+* All Questions have options from *a* to *d*
 
-Questions:
+Test:
 
 ```
 for i in */*.txt; do (echo "---"$i"---" && cat $i && echo ""); done
@@ -15,6 +13,7 @@ for i in */*.txt; do (echo "---"$i"---" && cat $i && echo ""); done
 
 
 ```---1/1.txt---
+---1/1.txt---
 Q: What's the output of the following code?
 
 a. 0 1 2 3 4 5
@@ -25,7 +24,7 @@ d. 0 0 0 0 1 2
 A: c
 
 ---10/10.txt---
-Q: What's correct verb should we use with fmt.Printf to print boolean?
+Q: What verb should we use with fmt.Printf to print boolean?
 
 a. %v
 b. %t
@@ -53,7 +52,7 @@ b. No
 A: a
 
 ---13/13.txt---
-Q: Is it possible to make content of the package to be accessed directly, without the need for it to be preceded with "fmt."?
+Q: Is it possible to make package content directly accessible without need to be preceed by "fmt."?
 
 a. Yes. import "fmt"
 b. Yes. import _ "fmt"
@@ -63,7 +62,7 @@ d. No
 A: c
 
 ---14/14.txt---
-Q: Is it possible to have multiple tag strings of struct field?
+Q: Is it possible to have multiple tag strings in struct field?
 
 a. Yes. They should be comma-separated: `key:"name",maxlength:"128"`
 b. Yes. They should be space-separated: `key:"name" maxlength:"128"`
@@ -82,7 +81,7 @@ d. 3333
 A: b
 
 ---16/16.txt---
-Q: What characters are used by *go fmt* as indent?
+Q: What characters is *go fmt* command using for indent?
 
 a. 4 spaces
 b. 2 spaces
@@ -92,7 +91,7 @@ d. it's configurable
 A: a
 
 ---17/17.txt---
-Q: Choose the correct statement about the output of the following code.
+Q: Choose the correct statement regarding the output of the following code.
 
 a. Output will be ordered by values
 b. Output will be ordered by keys
@@ -102,17 +101,17 @@ d. Output will be ordered by position in the code
 A: c
 
 ---18/18.txt---
-Q: How to change the value of GOMAXPROCS in Go?
+Q: How can we change the value of GOMAXPROCS in Go?
 
 a. Via environment variable GOMAXPROCS
-b. On runtime in code
+b. In the code
 c. a and b
-d. Not possible, equal to the number of CPUs available
+d. Impossible as it's equal to the number of available CPUs
 
 A: c
 
 ---19/19.txt---
-Q: Which of the following concatenation methods is slowest?
+Q: Which is the slowest concatenation method from the list?
 
 a. 1
 b. 2
@@ -121,7 +120,7 @@ c. 3
 A: a
 
 ---2/2.txt---
-Q: What's the output of following code?
+Q: What's the output of the following code?
 
 a. 7
 b. 4
@@ -131,7 +130,7 @@ d. invalid operation: a + b (mismatched types int8 and int16)
 A: d
 
 ---20/20.txt---
-Q: Where should we use defer in the following code?
+Q: Where should we use *defer* in the following code?
 
 a. 1
 b. 2
@@ -159,10 +158,10 @@ b. No
 A: b
 
 ---23/23.txt---
-Q: When init() function will be called?
+Q: When will init() function be called?
 
 a. Before main() function in main package
-b. For any non-main package after import
+b. After importing a package with defined init() function
 c. Only when you call it
 d. a and b
 
@@ -177,7 +176,7 @@ b. No
 A: b
 
 ---25/25.txt---
-Q: Is it possible to find that slices are equal with "==" operator?
+Q: Is it possible to check if the slices are equal with "==" operator or not?
 
 a. Yes
 b. No
@@ -185,7 +184,7 @@ b. No
 A: b
 
 ---26/26.txt---
-Q: What size of the following struct?
+Q: What is the size of the following struct?
 
 a. 12
 b. 8
@@ -195,7 +194,7 @@ d: 32
 A: c
 
 ---27/27.txt---
-Q: What's the default buffer size of channel in Go?
+Q: What's the default buffer size of the channel in Go?
 
 a. 0
 b. 1
@@ -204,7 +203,7 @@ c. No default size
 A: a
 
 ---28/28.txt---
-Q: What are the default values for types: string, *string ?
+Q: What are the default values of these types: string, *string ?
 
 a. "", nil
 b. "", ""
@@ -214,7 +213,7 @@ d. nil, ""
 A: a
 
 ---29/29.txt---
-Q: Is it possible to define constant with array of type float32?
+Q: Is it possible to define constant of an array type float32?
 
 a. Yes
 b. No
@@ -222,7 +221,7 @@ b. No
 A: b
 
 ---3/3.txt---
-Q: Short declaration ":=" can be used for defining global variables, isn't it?
+Q: Can short declaration ":=" be used for defining global variables?
 
 a. Yes
 b. No
@@ -230,7 +229,7 @@ b. No
 A: b
 
 ---30/30.txt---
-Q: In Go, does a break statement break from a select?
+Q: In Go, does a *break* statement exit from a *select* block?
 
 a. Yes
 b. No
@@ -248,7 +247,7 @@ d. None of the above
 A: b
 
 ---5/5.txt---
-Q: Arrays are value types. In case of arrays as arguments, functions get their copies instead of a reference. isn't it?
+Q: Arrays are value types. In case of arrays perform as arguments, functions get their copies instead of a reference. Don’t they?
 
 a. Yes
 b. No
@@ -266,7 +265,7 @@ d. BigBro, 爱
 A: d
 
 ---7/7.txt---
-Q: What's the output sequence of the following code?
+Q: What's the sequence for the output of the following code?
 
 a. 3 2 1
 b. 1 2 3
@@ -276,7 +275,7 @@ d. 2 1 3
 A: d
 
 ---8/8.txt---
-Q: How to build the following code to the binary file with custom name "eight"?
+Q: How to compile the following code to the binary file with name "eight"?
 
 a. go build 8.go eight
 b. go build -o eight 8.go
@@ -285,9 +284,10 @@ c. go build 8.go -o eight
 A: b
 
 ---9/9.txt---
-Q: Can we set DEBUG=true with go build?
+Q: Can we set DEBUG=true with *go build*?
 
 a. Yes. go build -ldflags '-X main.DEBUG=true' 9/9.go
 b. No
 
 A: b
+```

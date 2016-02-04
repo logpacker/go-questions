@@ -1,4 +1,4 @@
-Q: Which of the following concatenation methods is slowest?
+Q: Which is the slowest concatenation method from the list?
 
 a. 1
 b. 2

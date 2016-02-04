@@ -1,4 +1,4 @@
-Q: What are the default values for types: string, *string ?
+Q: What are the default values of these types: string, *string ?
 
 a. "", nil
 b. "", ""

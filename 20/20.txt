@@ -1,4 +1,4 @@
-Q: Where should we use defer in the following code?
+Q: Where should we use *defer* in the following code?
 
 a. 1
 b. 2
