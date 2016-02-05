@@ -234,8 +234,6 @@ func main() {
  - c. 3
  - d. None of them
 
-##### 2
-
 ##### On what data types you can use "for - range" statement?
 
  - a. array, slice, map
