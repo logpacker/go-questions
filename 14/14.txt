@@ -1,5 +1,24 @@
 Q: Is it possible to have multiple tag strings in struct field?
 
+```package main
+
+import (
+	"fmt"
+	"reflect"
+)
+
+func main() {
+	type User struct {
+		Name string `key:"name"`
+	}
+
+	u := User{}
+	st := reflect.TypeOf(u)
+	field := st.Field(0)
+	fmt.Println(field.Tag.Get("key"))
+}
+```
+
 a. Yes. They should be comma-separated: `key:"name",maxlength:"128"`
 b. Yes. They should be space-separated: `key:"name" maxlength:"128"`
 c. No

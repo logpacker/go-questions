@@ -1,5 +1,15 @@
 Q: How to compile the following code to the binary file with name "eight"?
 
+```go
+package main
+
+import "fmt"
+
+func main() {
+	fmt.Println("Hi")
+}
+```
+
 a. go build 8.go eight
 b. go build -o eight 8.go
 c. go build 8.go -o eight

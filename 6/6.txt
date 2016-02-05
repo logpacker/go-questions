@@ -1,5 +1,21 @@
 Q: Which of the following variables are exportable from another external package?
 
+```go
+package main
+
+var (
+	aName string
+
+	BigBro string
+
+	爱 string
+)
+
+func main() {
+
+}
+```
+
 a. aName, BigBro
 b. BigBro
 c. aName, BigBro, 爱

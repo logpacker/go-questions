@@ -1,5 +1,16 @@
 Q: Is it possible to define constant of an array type float32?
 
+```package main
+
+import "fmt"
+
+const array = []float32{0.1, 0.2, 0.3}
+
+func main() {
+	fmt.Printf("%v", array)
+}
+```
+
 a. Yes
 b. No
 

@@ -1,5 +1,25 @@
 Q: What's the output of the following code?
 
+```go
+package main
+
+import "fmt"
+
+const (
+	a = iota
+	b = iota
+	c = iota
+)
+
+const (
+	d, e, f = iota, iota, iota
+)
+
+func main() {
+	fmt.Println(a, b, c, d, e, f)
+}
+```
+
 a. 0 1 2 3 4 5
 b. 0 1 2 0 1 2
 c. 0 1 2 0 0 0

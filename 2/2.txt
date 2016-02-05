@@ -1,5 +1,20 @@
 Q: What's the output of the following code?
 
+```go
+package main
+
+import "fmt"
+
+func main() {
+	var a int8 = 3
+	var b int16 = 4
+
+	sum := a + b
+
+	fmt.Println(sum)
+}
+```
+
 a. 7
 b. 4
 c. 3

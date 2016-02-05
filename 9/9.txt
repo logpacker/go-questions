@@ -1,5 +1,19 @@
 Q: Can we set DEBUG=true with *go build*?
 
+```go
+package main
+
+import (
+	"fmt"
+)
+
+var DEBUG bool
+
+func main() {
+	fmt.Printf("DEBUG is %t\n", DEBUG)
+}
+```
+
 a. Yes. go build -ldflags '-X main.DEBUG=true' 9/9.go
 b. No
 
