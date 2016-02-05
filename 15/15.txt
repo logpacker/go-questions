@@ -1,6 +1,7 @@
 Q: What is the output of the following code?
 
-```package main
+```go
+package main
 
 import "fmt"
 

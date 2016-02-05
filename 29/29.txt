@@ -1,6 +1,7 @@
 Q: Is it possible to define constant of an array type float32?
 
-```package main
+```go
+package main
 
 import "fmt"
 

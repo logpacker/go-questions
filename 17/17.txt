@@ -1,6 +1,7 @@
 Q: Choose the correct statement regarding the output of the following code.
 
-```package main
+```go
+package main
 
 import "fmt"
 

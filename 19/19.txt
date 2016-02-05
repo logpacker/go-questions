@@ -1,6 +1,7 @@
 Q: Which is the slowest concatenation method from the list?
 
-```package main
+```go
+package main
 
 import (
 	"bytes"

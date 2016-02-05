@@ -7,10 +7,6 @@ Preliminary information:
 
 Test:
 
-```
-for i in */*.txt; do (cat $i && echo ""); done
-```
-
 ##### What's the output of the following code?
 
 ```go
@@ -33,40 +29,41 @@ func main() {
 }
 ```
 
-a. 0 1 2 3 4 5
-b. 0 1 2 0 1 2
-c. 0 1 2 0 0 0
-d. 0 0 0 0 1 2
+ - a. 0 1 2 3 4 5
+ - b. 0 1 2 0 1 2
+ - c. 0 1 2 0 0 0
+ - d. 0 0 0 0 1 2
 
 ##### What verb should we use with fmt.Printf to print boolean?
 
-a. %v
-b. %t
-c. %b
-d. %s
+ - a. %v
+ - b. %t
+ - c. %b
+ - d. %s
 
 ##### Does Go support type inheritance?
 
-a. Yes
-b. No
+ - a. Yes
+ - b. No
 
 ##### Is it possible to declare multiple types of variables in single declaration in Go?
 
 var a, b, c = 3, 4, "foo"
 
-a. Yes
-b. No
+ - a. Yes
+ - b. No
 
 ##### Is it possible to make package content directly accessible without need to be preceed by "fmt."?
 
-a. Yes. import "fmt"
-b. Yes. import _ "fmt"
-c. Yes. import . "fmt"
-d. No
+ - a. Yes. import "fmt"
+ - b. Yes. import _ "fmt"
+ - c. Yes. import . "fmt"
+ - d. No
 
 ##### Is it possible to have multiple tag strings in struct field?
 
-```package main
+```go
+package main
 
 import (
 	"fmt"
@@ -85,13 +82,14 @@ func main() {
 }
 ```
 
-a. Yes. They should be comma-separated: `key:"name",maxlength:"128"`
-b. Yes. They should be space-separated: `key:"name" maxlength:"128"`
-c. No
+ - a. Yes. They should be comma-separated: `key:"name",maxlength:"128"`
+ - b. Yes. They should be space-separated: `key:"name" maxlength:"128"`
+ - c. No
 
 ##### What is the output of the following code?
 
-```package main
+```go
+package main
 
 import "fmt"
 
@@ -102,21 +100,22 @@ func main() {
 }
 ```
 
-a. 0123
-b. 3210
-c. 0000
-d. 3333
+ - a. 0123
+ - b. 3210
+ - c. 0000
+ - d. 3333
 
 ##### What characters is *go fmt* command using for indent?
 
-a. 4 spaces
-b. 2 spaces
-c. tab character
-d. it's configurable
+ - a. 4 spaces
+ - b. 2 spaces
+ - c. tab character
+ - d. it's configurable
 
 ##### Choose the correct statement regarding the output of the following code.
 
-```package main
+```go
+package main
 
 import "fmt"
 
@@ -135,21 +134,22 @@ func main() {
 }
 ```
 
-a. Output will be ordered by values
-b. Output will be ordered by keys
-c. Output will be ordered randomly
-d. Output will be ordered by position in the code
+ - a. Output will be ordered by values
+ - b. Output will be ordered by keys
+ - c. Output will be ordered randomly
+ - d. Output will be ordered by position in the code
 
 ##### How can we change the value of GOMAXPROCS in Go?
 
-a. Via environment variable GOMAXPROCS
-b. In the code
-c. a and b
-d. Impossible as it's equal to the number of available CPUs
+ - a. Via environment variable GOMAXPROCS
+ - b. In the code
+ - c. a and b
+ - d. Impossible as it's equal to the number of available CPUs
 
 ##### Which is the slowest concatenation method from the list?
 
-```package main
+```go
+package main
 
 import (
 	"bytes"
@@ -178,9 +178,9 @@ func main() {
 }
 ```
 
-a. 1
-b. 2
-c. 3
+ - a. 1
+ - b. 2
+ - c. 3
 
 ##### What's the output of the following code?
 
@@ -199,10 +199,10 @@ func main() {
 }
 ```
 
-a. 7
-b. 4
-c. 3
-d. invalid operation: a + b (mismatched types int8 and int16)
+ - a. 7
+ - b. 4
+ - c. 3
+ - d. invalid operation: a + b (mismatched types int8 and int16)
 
 ##### Where should we use *defer* in the following code?
 
@@ -229,41 +229,41 @@ func main() {
 }
 ```
 
-a. 1
-b. 2
-c. 3
-d. None of them
+ - a. 1
+ - b. 2
+ - c. 3
+ - d. None of them
 
 ##### 2
 
 ##### On what data types you can use "for - range" statement?
 
-a. array, slice, map
-b. array, slice, map, string
-c. slice, map, string
-d. slice, map
+ - a. array, slice, map
+ - b. array, slice, map, string
+ - c. slice, map, string
+ - d. slice, map
 
 ##### Does Go support optional parameters in functions?
 
-a. Yes
-b. No
+ - a. Yes
+ - b. No
 
 ##### When will init() function be called?
 
-a. Before main() function in main package
-b. After importing a package with defined init() function
-c. Only when you call it
-d. a and b
+ - a. Before main() function in main package
+ - b. After importing a package with defined init() function
+ - c. Only when you call it
+ - d. a and b
 
 ##### Does Go have a ternary operator?
 
-a. Yes
-b. No
+ - a. Yes
+ - b. No
 
 ##### Is it possible to check if the slices are equal with "==" operator or not?
 
-a. Yes
-b. No
+ - a. Yes
+ - b. No
 
 ##### What is the size of the following struct?
 
@@ -283,27 +283,28 @@ func main() {
 }
 ```
 
-a. 12
-b. 8
-c: 24
-d: 32
+ - a. 12
+ - b. 8
+ - c. 24
+ - d. 32
 
 ##### What's the default buffer size of the channel in Go?
 
-a. 0
-b. 1
-c. No default size
+ - a. 0
+ - b. 1
+ - c. No default size
 
-##### What are the default values of these types: string, *string ?
+##### What are the default values of these types: string,`*string` ?
 
-a. "", nil
-b. "", ""
-c. nil, nil
-d. nil, ""
+ - a. "", nil
+ - b. "", ""
+ - c. nil, nil
+ - d. nil, ""
 
 ##### Is it possible to define constant of an array type float32?
 
-```package main
+```go
+package main
 
 import "fmt"
 
@@ -314,30 +315,30 @@ func main() {
 }
 ```
 
-a. Yes
-b. No
+ - a. Yes
+ - b. No
 
 ##### Can short declaration ":=" be used for defining global variables?
 
-a. Yes
-b. No
+ - a. Yes
+ - b. No
 
 ##### In Go, does a *break* statement exit from a *select* block?
 
-a. Yes
-b. No
+ - a. Yes
+ - b. No
 
 ##### Which one of the following is correct?
 
-a. const Pi = math.Pi
-b. const Pi = 3.14
-c. both a and b are correct
-d. None of the above
+ - a. const Pi = math.Pi
+ - b. const Pi = 3.14
+ - c. both a and b are correct
+ - d. None of the above
 
 ##### Arrays are value types. In case of arrays perform as arguments, functions get their copies instead of a reference. Don’t they?
 
-a. Yes
-b. No
+ - a. Yes
+ - b. No
 
 ##### Which of the following variables are exportable from another external package?
 
@@ -357,10 +358,10 @@ func main() {
 }
 ```
 
-a. aName, BigBro
-b. BigBro
-c. aName, BigBro, 爱
-d. BigBro, 爱
+ - a. aName, BigBro
+ - b. BigBro
+ - c. aName, BigBro, 爱
+ - d. BigBro, 爱
 
 ##### What's the sequence for the output of the following code?
 
@@ -392,10 +393,10 @@ func main() {
 }
 ```
 
-a. 3 2 1
-b. 1 2 3
-c. 2 3 1
-d. 2 1 3
+ - a. 3 2 1
+ - b. 1 2 3
+ - c. 2 3 1
+ - d. 2 1 3
 
 ##### How to compile the following code to the binary file with name "eight"?
 
@@ -409,9 +410,9 @@ func main() {
 }
 ```
 
-a. go build 8.go eight
-b. go build -o eight 8.go
-c. go build 8.go -o eight
+ - a. go build 8.go eight
+ - b. go build -o eight 8.go
+ - c. go build 8.go -o eight
 
 ##### Can we set DEBUG=true with *go build*?
 
@@ -429,7 +430,5 @@ func main() {
 }
 ```
 
-a. Yes. go build -ldflags '-X main.DEBUG=true' 9/9.go
-b. No
-
-A: b
+ - a. Yes. go build -ldflags '-X main.DEBUG=true' 9/9.go
+ - b. No

@@ -1,6 +1,7 @@
 Q: Is it possible to have multiple tag strings in struct field?
 
-```package main
+```go
+package main
 
 import (
 	"fmt"
