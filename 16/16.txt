@@ -1,4 +1,4 @@
-Q: What characters is *go fmt* command using for indent?
+Q: What characters does *go fmt* command use for indent?
 
 a. 4 spaces
 b. 2 spaces

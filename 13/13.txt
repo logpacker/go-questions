@@ -1,4 +1,4 @@
-Q: Is it possible to make package content directly accessible without need to be preceed by "fmt."?
+Q: Is it possible to make package content directly accessible without need to be preceeded by "fmt."?
 
 a. Yes. import "fmt"
 b. Yes. import _ "fmt"

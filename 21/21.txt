@@ -1,4 +1,4 @@
-Q: On what data types you can use "for - range" statement?
+Q: What data types can you use "for - range" statement?
 
 a. array, slice, map
 b. array, slice, map, string

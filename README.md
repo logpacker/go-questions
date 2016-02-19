@@ -53,7 +53,7 @@ var a, b, c = 3, 4, "foo"
  - a. Yes
  - b. No
 
-##### Is it possible to make package content directly accessible without need to be preceed by "fmt."?
+##### Is it possible to make package content directly accessible without need to be preceeded by "fmt."?
 
  - a. Yes. import "fmt"
  - b. Yes. import _ "fmt"
@@ -105,7 +105,7 @@ func main() {
  - c. 0000
  - d. 3333
 
-##### What characters is *go fmt* command using for indent?
+##### What characters does *go fmt* command use for indent?
 
  - a. 4 spaces
  - b. 2 spaces
@@ -234,7 +234,7 @@ func main() {
  - c. 3
  - d. None of them
 
-##### On what data types you can use "for - range" statement?
+##### What data types can you use "for - range" statement?
 
  - a. array, slice, map
  - b. array, slice, map, string
