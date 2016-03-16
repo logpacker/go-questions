@@ -1,7 +1,7 @@
 Q: What data types can you use "for - range" statement?
 
 a. array, slice, map
-b. array, slice, map, string
+b. array, slice, map, string, channel
 c. slice, map, string
 d. slice, map
 
