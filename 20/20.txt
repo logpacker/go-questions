@@ -28,4 +28,4 @@ b. 2
 c. 3
 d. None of them
 
-Q: 2
+A: b
