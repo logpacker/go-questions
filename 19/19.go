@@ -9,19 +9,19 @@ import (
 func main() {
 	// 1
 	s := ""
-	for i := 0; i < 5; i++ {
+	for i := 0; i < 10; i++ {
 		s += "a"
 	}
 	fmt.Println(s)
 
 	// 2
 	var buffer bytes.Buffer
-	for i := 0; i < 5; i++ {
+	for i := 0; i < 10; i++ {
 		buffer.WriteString("a")
 	}
 	fmt.Println(buffer.String())
 
 	// 3
-	sl := []string{"a", "a", "a", "a", "a"}
+	sl := []string{"a", "a", "a", "a", "a", "a", "a", "a", "a", "a"}
 	fmt.Printf(strings.Join(sl, ""))
 }
