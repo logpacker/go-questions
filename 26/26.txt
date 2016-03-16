@@ -19,6 +19,6 @@ func main() {
 a. 12
 b. 8
 c. 24
-d. 32
+d. 12 bytes on architectures with 4 bytes pointers and 24 on architectures with 8 bytes pointers
 
-A: c
+A: d
