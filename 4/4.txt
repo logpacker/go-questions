@@ -5,4 +5,4 @@ b. const Pi = 3.14
 c. both a and b are correct
 d. None of the above
 
-A: b
+A: c
