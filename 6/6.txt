@@ -5,9 +5,7 @@ package main
 
 var (
 	aName string
-
 	BigBro string
-
 	爱 string
 )
 
@@ -21,4 +19,4 @@ b. BigBro
 c. aName, BigBro, 爱
 d. BigBro, 爱
 
-A: d
+A: b
