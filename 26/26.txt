@@ -21,4 +21,4 @@ b. 8
 c. 12 bytes on architectures with 4 bytes pointers and 24 on architectures with 8 bytes pointers
 d. 24
 
-A: d
+A: c
